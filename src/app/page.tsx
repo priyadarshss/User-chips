@@ -48,6 +48,7 @@ export default function ChipComponent() {
         const lastIndex = chipData.length - 1
         setHighlightedChipIndex(lastIndex)
         setBackspaceCount((prevCount) => prevCount + 1)
+        setShowDropdown(false)
       }
     }
 
