@@ -91,7 +91,8 @@ export default function ChipComponent() {
   }
 
   return (
-    <div className='min-h-screen flex flex-col pt-60 items-center p-4 w-full'>
+    <div className='min-h-screen flex flex-col pt-32 items-center p-4 w-full'>
+      <h1 className='text-[50px] font-semibold mb-32 text-blue-600'>Pick Users</h1>
       <div className='relative mb-4 w-2/3 flex'>
         {/* chip div */}
         <div
